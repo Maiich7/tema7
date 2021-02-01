@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lille illutrativt site</title>
+    <link rel="stylesheet" href="">
+    <style>
+        article {
+            width: 50vw;
+            font-family: sans-serif;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <article>
+            <h2>Overskrift</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores fugit quaerat possimus aliquam. Nam labore, suscipit architecto ipsa culpa ab vitae ut aliquid pariatur dolore quas vel, <br>voluptatum eius, consequuntur. Accusantium recusandae delectus qui dignissimos deleniti dolores, laborum quasi vitae quibusdam dolorum, quis voluptas unde suscipit. Inventore explicabo reprehenderit molestiae.</p>
+        </article>
+    </main>
+    <script>
+        document.querySelector("article").addEventListener("click", DoSomeThing);
+
+        function DoSomeThing() {
+            this.style.background = "red";
+
+        }
+
+    </script>
+</body>
+
+</html>
